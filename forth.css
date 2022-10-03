@@ -1,0 +1,181 @@
+
+
+@media (min-width:2px) and (max-width:700px){
+
+    body{
+        border: 2px solid red;
+        text-align: center;
+        background-image: url(./images.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        
+    }
+    .task{
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .list{
+        color: rgb(242, 90, 14);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+    }
+    .tasklist{
+        position: absolute;
+        left: 20px;
+    }
+    .material-icons{
+        color: red;
+        font-size: 40px !important;
+        position: absolute;
+        right: 30px;
+    }
+    .material-icons:hover{
+        color: bisque;
+    }
+    h3{
+        font-size: 30px;
+        color: white;
+        text-shadow: 2px 2px 3px rgb(244, 9, 9);
+    }
+    .card{
+        border: 2px solid rgb(245, 243, 243);
+        border-radius: 20px;
+        margin: 20px;
+        font-size: 20px;
+        color: aliceblue;
+        box-shadow: 4px 4px 5px white;
+    }
+
+    .card:hover{
+        background-color: rgb(140, 243, 146);
+        color: brown;
+        box-shadow: 4px 4px 4px rgb(141, 135, 246);
+        transform: translateY(-3px);
+    }
+    .all{
+        display: none;
+    }
+
+    
+}
+
+@media (min-width:700px) and (max-width:2500px){
+
+    body{
+        /* border: 2px solid red; */
+        text-align: center;
+        background-image: url(./images\ \(1\).jpg);
+        background-repeat:repeat;
+        background-size: cover;
+        position: relative;
+        
+    }
+    .task{
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .list{
+        color: rgb(242, 90, 14);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+    }
+    .tasklist{
+        position: absolute;
+        left: 20px;
+    }
+    .material-icons{
+        color: red;
+        font-size: 40px !important;
+        position: absolute;
+        right: 30px;
+    }
+    .material-icons:hover{
+        color: bisque;
+    }
+    h3{
+        font-size: 30px;
+        color: white;
+        text-shadow: 2px 2px 2px rgb(240, 15, 15);
+    }
+    .card{
+        border: 2px solid rgb(245, 243, 243);
+        border-radius: 20px;
+        margin: 20px;
+        font-size: 20px;
+        color: aliceblue;
+        box-shadow: 4px 4px 5px white;
+    }
+
+    .card:hover{
+        background-color: rgb(140, 243, 146);
+        color: brown;
+        box-shadow: 4px 4px 4px rgb(141, 135, 246);
+        transform: translateY(-3px);
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        height: 200px ;
+       
+    }
+    hr{
+        margin-left: 20px;
+    }
+    .completed{
+        color: red;
+        text-decoration: line-through;
+
+    }
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.center{
+    position: fixed;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    top: calc((100vh - 150px)/2);
+    left: calc((100vw - 300px)/2);
+
+}
+button{
+    color: red;
+    border-radius: 20px;
+    padding: 10px;
+    width: 70px;
+}
+.button:hover{
+    color: brown;
+}
+input{
+    box-shadow: 2px 2px 7px gray ;
+}
+.main{
+    
+    position: relative;
+    top: 150px;
+    filter: blur(3px);
+}
+
+
+
+
+
+
